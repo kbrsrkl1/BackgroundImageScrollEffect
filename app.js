@@ -5,6 +5,6 @@ window.addEventListener("scroll", () => {
 })
 
 function upgradeImage() {
-    bgImageEl.style.opacity = 1 - window.pageYOffset / 800
-    bgImageEl.style.backgroundSize = 170 - window.pageYOffset / 12 + "%"
+    bgImageEl.style.opacity = 1 - window.pageYOffset / 700
+    bgImageEl.style.backgroundSize = 160 - window.pageYOffset / 12 + "%"
 }
